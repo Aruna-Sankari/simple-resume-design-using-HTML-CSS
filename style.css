@@ -1,0 +1,33 @@
+body
+{
+background:lightblue;
+display:flex;
+/* justify-content:center; */
+align-items:center;
+min-height:100vh;
+}
+.container
+{
+position:relative;
+width:100%;
+max-width:100px;
+min-height:100px;
+background:#fff;
+display:grid;
+grid-template-columns:1fr 2fr;
+box-shadow:0 35px 55px rgba(0,0,0,0.1);
+}
+.left_side
+{
+position:relative;
+background:pink;
+padding:40px;
+width:20rem;
+}
+.right_side
+{
+position:relative;
+background:#fff;
+padding:40px;
+width:64rem;
+}
